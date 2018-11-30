@@ -1,0 +1,6 @@
+* Caddy Docker
+It's a pure simple Caddy only Docker image built on Debian:stretch.
+
+#+BEGIN_SRC sh
+  sudo docker pull kaiwk/caddy
+#+END_SRC
