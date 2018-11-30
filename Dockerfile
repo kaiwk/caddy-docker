@@ -7,7 +7,8 @@ ADD caddy/Caddyfile /etc/caddy/
 
 RUN apt-get update -y && \
     apt-get install -y curl && \
-    curl https://getcaddy.com | bash -s personal
+    curl https://getcaddy.com | bash -s personal && \
+    mkdir /var/log/caddy
 
 EXPOSE 80
 
