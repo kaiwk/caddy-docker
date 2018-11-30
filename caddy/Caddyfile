@@ -1,0 +1,6 @@
+localhost:8080 {
+    root /home/project/folder
+    proxy / localhost:8000 {
+        transparent
+    }
+}
